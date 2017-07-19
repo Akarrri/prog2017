@@ -1,0 +1,52 @@
+import turtle
+t = turtle.Turtle()
+
+t.home()
+t.clear()
+
+t.forward(100)
+t.left(90)
+t.forward(100)
+
+def rect(x,y,a):
+  t.up()
+  t.home()
+  t.forward(x)
+  t.left(90)
+  t.forward(y)
+  t.down(a)
+  t.down()
+  for i in eange(4):
+    t.forward(a)
+    t.left(90)
+
+
+t.clear()
+rect(10,10,100)
+rect(10,-10,100)
+rect(-10,10,100)
+rect(-110,10,100)
+rect(-110,-110,100)
+
+random.randint(1,6)
+3
+random.randint(1,6)
+1
+random.randint(1,6)
+4
+random.randint(1,6)
+1
+random.randint(1,6)
+1
+random.randint(1,6)
+2
+
+class Dice:
+  face_num = 6
+  def shoot(self):
+    return random.randint(1,dself.fase_num)
+    
+ 
+import random
+aDice = Dice() #クラスをもとにオブジェクトを作る
+aDice.shoot()　#オブジェクトを使う
